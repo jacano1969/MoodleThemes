@@ -1,0 +1,51 @@
+/* DaliosCSS */
+#page-header {
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
+}
+#headerlogo img {
+    float: left;
+    padding: 10px;
+}
+#ttvam-title-en,
+#ttvam-title-lt {
+text-transform: uppercase;
+font-size: 24px;
+line-height: 28px;
+padding-top: 15px;
+padding-left: 90px;
+font-weight: bold;
+color: #00397C;
+/*color: hsl(228, 40%, 30%);*/
+}
+#ttvam-title-en {
+    display: none;
+}
+.navbar {
+   /* background-color: hsl(149, 255, 124);*/
+    background-color: #00397C;
+    background-image: none;
+}
+.block .header .title {
+    background-image: none;
+    background-color: lightgray;
+}
+.block .header h2 {
+    color: #910808;
+    font-size: 100%;
+    text-transform: uppercase;
+}
+a:link, a:hover, a:visited {
+    color: #00397C;
+/*    color: hsl(149, 255, 124);*/
+}
+.categorylist .category a {
+    text-transform: uppercase;
+}
+.categorylist .category .indentation a {
+    text-transform: none;
+}
+.categorybox .category {
+    font-size: 1.1em;
+    font-weight: bold;
+}
