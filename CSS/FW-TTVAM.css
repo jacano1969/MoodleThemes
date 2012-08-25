@@ -1,7 +1,9 @@
 /* DaliosCSS */
 #page-header {
-  background-color: whitesmoke;
-  border: 1px solid lightgrey;
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    position: relative;
+    box-sizing: border-box;
 }
 #headerlogo img {
     float: left;
@@ -54,9 +56,6 @@ div.generalbox table, div.generalbox tr, div.generalbox td {
     padding: 6px;
     border-collapse: collapse;
 }
-.page-header {
-    position: relative;
-}
 .headerimage {
     background-image: url(../theme/formal_white/pix/students_in_library.jpg);
     background-size: 100%;
@@ -69,12 +68,24 @@ div.generalbox table, div.generalbox tr, div.generalbox td {
 .headerlogo {
     position:absolute;
 }
+.frontpage-header .logininfo {
+    width: 160px;
+}
 h1.headerheading {
     color: darkRed;
 }
-.logininfo {
-    width: 160px;
-}
 .block .header .block_action {
     margin-top: 0;
+}
+.langmenu {
+    display: none;
+}
+.frontpage-header .langmenu {
+    display: block;
+}
+th.header,
+.formtable tbody th,
+.generalbox th,
+.generaltable th.header {
+    background-image: none;
 }
