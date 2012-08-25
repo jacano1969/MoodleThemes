@@ -1,6 +1,7 @@
 /* DaliosCSS */
 #page-header {
-    background-color: whitesmoke;
+/*    background-color: whitesmoke; */
+    background-image:  url(../theme/formal_white/pix/bg/paper/paper.png);
     border: 1px solid lightgrey;
     position: relative;
     box-sizing: border-box;
@@ -26,13 +27,26 @@
     background-image: none;
 }
 .block .header .title {
-    background-image: none;
-    background-color: lightgray;
+/*    background-image: none; */
+/*    background-color: lightgray; */
+/*    background-image: url(../theme/formal_white/pix/bg/white_carbonfiber/white_carbonfiber.png); */
 }
 .block .header h2 {
     color: #910808;
     font-size: 100%;
     text-transform: uppercase;
+    background-image: url(../theme/formal_white/pix/bg/dark_paper/dark_paper.png);
+}
+.block .content {
+    background-image: url(../theme/formal_white/pix/bg/paper/paper.png);
+}
+
+th.header,
+.formtable tbody th,
+.generalbox th,
+.generaltable th.header {
+    background-image: url(../theme/formal_white/pix/bg/white_bed_sheet/white_bed_sheet.png);
+    background-repeat: repeat;
 }
 a:link, a:hover, a:visited {
     color: #00397C;
@@ -82,10 +96,4 @@ h1.headerheading {
 }
 .frontpage-header .langmenu {
     display: block;
-}
-th.header,
-.formtable tbody th,
-.generalbox th,
-.generaltable th.header {
-    background-image: none;
 }
