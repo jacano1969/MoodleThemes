@@ -6,6 +6,7 @@
     position: relative;
     box-sizing: border-box;
 }
+
 #headerlogo img {
     float: left;
     padding: 10px;
@@ -26,16 +27,14 @@
     background-color: #00397C;
     background-image: none;
 }
-.block .header .title {
-/*    background-image: none; */
-/*    background-color: lightgray; */
-/*    background-image: url(../theme/formal_white/pix/bg/white_carbonfiber/white_carbonfiber.png); */
+.block .header .title .commands {
+    background-image: url(../theme/formal_white/pix/bg/paper/paper.png);
 }
 .block .header h2 {
     color: #910808;
     font-size: 100%;
     text-transform: uppercase;
-    background-image: url(../theme/formal_white/pix/bg/dark_paper/dark_paper.png);
+    background-image: url(../theme/formal_white/pix/bg/dark_paper/dark_paper2.jpg);
 }
 .block .content {
     background-image: url(../theme/formal_white/pix/bg/paper/paper.png);
@@ -65,13 +64,17 @@ a:link, a:hover, a:visited {
 ul.topics .section span.commands {
     right: auto;
 }
-div.generalbox table, div.generalbox tr, div.generalbox td {
+div.generalbox table,
+div.generalbox tr,
+div.generalbox td {
     border: 1px solid black;
     padding: 6px;
     border-collapse: collapse;
 }
 .headerimage {
+/*    background-image: url(../theme/formal_white/pix/students_in_library.jpg); */
     background-image: url(../theme/formal_white/pix/students_in_library.jpg);
+    background-position-y: 40%;
     background-size: 100%;
     background-repeat: no-repeat;
     height: 108px;
@@ -96,4 +99,21 @@ h1.headerheading {
 }
 .frontpage-header .langmenu {
     display: block;
+}
+.block .block-hider-show,
+.block .block-hider-hide {
+    background-color: whiteSmoke;
+}
+
+.forumpost .row .topic {
+    background-image: url(../theme/formal_white/pix/bg/paper/paper.png);
+}
+div.generalbox .categoryquestionscontainer table,
+div.generalbox .categoryquestionscontainer tr,
+div.generalbox .categoryquestionscontainer td,
+div.generalbox .mceToolbar table,
+div.generalbox .mceToolbar tr,
+div.generalbox .mceToolbar td {
+    border: none;
+    padding: 0;
 }
